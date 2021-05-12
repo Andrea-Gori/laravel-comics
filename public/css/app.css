@@ -156,3 +156,51 @@ main .main-bot .merch ul li a svg {
   width: 55px;
   margin-right: 10px;
 }
+
+footer {
+  height: 500px;
+  background-color: #303030;
+  background-image: url(../../../images/footer-bg.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
+footer .container p {
+  width: 55%;
+  color: #959595;
+  font-size: 13px;
+}
+footer .container p .blue a {
+  color: #0282f9;
+}
+footer .container a {
+  text-decoration: none;
+  color: #959595;
+}
+footer .container .liste {
+  display: flex;
+  padding: 30px 0;
+  background-image: url(../../../images/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+footer .container .liste ul {
+  padding-right: 30px;
+}
+footer .container .liste ul li {
+  margin: 8px 0;
+  font-size: 13px;
+}
+footer .container .liste ul .list-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 10px 0;
+}
+footer .container .liste ul .list-title a {
+  color: #FFF;
+}
