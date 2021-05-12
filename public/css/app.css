@@ -81,11 +81,78 @@ header .jumbo {
 main {
   background-color: #1C1C1C;
 }
-main .container h2 {
+main h2 {
   text-transform: uppercase;
   background-color: #0282f9;
   color: #fff;
   padding: 10px 20px;
   display: inline-block;
   margin-top: -24px;
+  margin-left: 10%;
+  margin-bottom: 65px;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .container .card {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 6 - 20px);
+  margin: 15px 10px;
+}
+main .container .card img {
+  height: 100%;
+  width: 100%;
+}
+main .container .card p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 10px;
+}
+main .container .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0282f9;
+  padding: 10px 40px;
+  text-decoration: none;
+  margin: 25px auto;
+}
+main .main-bot {
+  background-color: #0282f9;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+main .main-bot .merch {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .main-bot .merch ul {
+  display: flex;
+  align-items: center;
+}
+main .main-bot .merch ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+main .main-bot .merch ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+main .main-bot .merch ul li a img {
+  max-width: 55px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+main .main-bot .merch ul li a svg {
+  width: 55px;
+  margin-right: 10px;
 }
