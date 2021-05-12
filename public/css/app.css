@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+header nav.nav-top {
+  height: 30px;
+  background-color: #0282f9;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+header nav.nav-top .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav.nav-top .container span {
+  margin-right: 35px;
+  text-transform: uppercase;
+}
+header nav.nav-top .container select {
+  background-color: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header .nav-bot {
+  margin: 15px 0;
+}
+header .nav-bot ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-bot ul li img {
+  height: 60px;
+}
+header .nav-bot ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4c5757;
+  font-weight: bold;
+}
+header .nav-bot ul li .fa-caret-down {
+  margin-left: 5px;
+  color: #0282f9;
+}
+header .nav-bot ul #search {
+  border-bottom: 2px solid #0282f9;
+}
+header .nav-bot ul #search input {
+  width: 110px;
+  text-align: right;
+}
+header .nav-bot ul #search .fa-search {
+  margin-left: 5px;
+}
+header .jumbo {
+  height: 275px;
+  background-image: url(../../../images/jumbotron.jpg);
+  background-size: cover;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+main .container h2 {
+  text-transform: uppercase;
+  background-color: #0282f9;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: -24px;
+}
