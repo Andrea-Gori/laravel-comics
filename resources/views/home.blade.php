@@ -1,13 +1,14 @@
 @extends('layouts.app')
 
 @section('main')
-    <h2>Current Series</h2>
+<main id="home">
+<h2>Current Series</h2>
   
 
   <div class="container">
-    @foreach($titoli as $titolo)
+    @foreach($titoli as $index => $titolo)
     <div class="card">
-      <a href=""><img src="{{ $titolo['thumb'] }}" alt=""></a>
+      <a href="{{route('singlePage',['id' => $index])}}"><img src="{{ $titolo['thumb'] }}" alt=""></a>
       <p>{{ $titolo['series'] }}</p>
     </div>
     @endforeach
@@ -51,4 +52,5 @@
       </ul>
     </div>
   </div>
+</main>
 @endsection

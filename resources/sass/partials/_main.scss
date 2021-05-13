@@ -1,4 +1,4 @@
-main{
+#home{
   background-color: #1C1C1C;
   h2{
     text-transform: uppercase;
@@ -74,5 +74,105 @@ main{
         }
       }
     }
+  }
+}
+
+#singlePage{
+  .main-top{
+    height: 80px;
+    width: 100%;
+    background-color: #0282f9;
+    .container{
+      width: 80%;
+      margin: 0 auto;
+      img{
+        border: 1px solid #fff;
+        margin-top: -230px;
+      }
+    }
+  }
+  .main-mid{
+    .container{
+      @include flex;
+      justify-content: space-between;
+      margin: 50px auto;
+    }
+    .single-page-content{
+      color: #003f5e;
+      width: 65%;
+      h2{
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 26px;
+      }
+      .price{
+        height: 50px;
+        padding: 0 20px;
+        margin-bottom: 10px;
+        @include flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #55ba59;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        .green{
+          color: #BAFD9C;
+        }
+        .controlli{
+          @include flex;
+          align-items: center;
+          
+          span{
+            @include flex;
+            align-items: center;
+            height: 50px;
+            border-right: 1px solid #000;
+            padding-right: 15px;
+            text-transform: uppercase;
+            
+          }
+          
+          select{
+            height: 16px;
+            margin-left: 15px;
+            background-color: #55ba59;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+          }
+        }
+      }
+      .description{
+        p{
+          line-height: 30px;
+        }
+      }
+    }
+    .advertise{
+      p{
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: bold;
+        color: #003f5e;
+      }
+    }
+  }
+  .main-bot{
+    .container{
+      @include flex;
+      .container-left{
+        @include flex;
+        justify-content: space-between;
+        
+      }
+    }
+    h4{
+      border-bottom: 1px solid #e3e3e3;
+    }
+    div{
+      border-bottom: 1px solid #e3e3e3;
+    }
+    
   }
 }

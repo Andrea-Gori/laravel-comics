@@ -17,3 +17,8 @@ Route::get('/', function () {
     $database = config('comics');
     return view('home')->with('titoli', $database);
 });
+
+Route::get('/single{id}', function ($id) {
+    $singleComics = config('comics');
+    return view('single-page')->with('id', $singleComics[$id]);
+})->name('singlePage');

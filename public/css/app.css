@@ -78,10 +78,10 @@ header .jumbo {
   background-size: cover;
 }
 
-main {
+#home {
   background-color: #1C1C1C;
 }
-main h2 {
+#home h2 {
   text-transform: uppercase;
   background-color: #0282f9;
   color: #fff;
@@ -91,28 +91,28 @@ main h2 {
   margin-left: 10%;
   margin-bottom: 65px;
 }
-main .container {
+#home .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-main .container .card {
+#home .container .card {
   display: flex;
   flex-direction: column;
   width: calc(100% / 6 - 20px);
   margin: 15px 10px;
 }
-main .container .card img {
+#home .container .card img {
   height: 100%;
   width: 100%;
 }
-main .container .card p {
+#home .container .card p {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
   margin-top: 10px;
 }
-main .container .btn {
+#home .container .btn {
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -121,46 +121,131 @@ main .container .btn {
   text-decoration: none;
   margin: 25px auto;
 }
-main .main-bot {
+#home .main-bot {
   background-color: #0282f9;
   height: 150px;
   display: flex;
   align-items: center;
 }
-main .main-bot .merch {
+#home .main-bot .merch {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-main .main-bot .merch ul {
+#home .main-bot .merch ul {
   display: flex;
   align-items: center;
 }
-main .main-bot .merch ul li {
+#home .main-bot .merch ul li {
   list-style: none;
   margin: 0 25px;
 }
-main .main-bot .merch ul li a {
+#home .main-bot .merch ul li a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #fff;
 }
-main .main-bot .merch ul li a img {
+#home .main-bot .merch ul li a img {
   max-width: 55px;
   max-height: 50px;
   margin-right: 10px;
 }
-main .main-bot .merch ul li a svg {
+#home .main-bot .merch ul li a svg {
   width: 55px;
   margin-right: 10px;
+}
+
+#singlePage .main-top {
+  height: 80px;
+  width: 100%;
+  background-color: #0282f9;
+}
+#singlePage .main-top .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#singlePage .main-top .container img {
+  border: 1px solid #fff;
+  margin-top: -230px;
+}
+#singlePage .main-mid .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+#singlePage .main-mid .single-page-content {
+  color: #003f5e;
+  width: 65%;
+}
+#singlePage .main-mid .single-page-content h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+#singlePage .main-mid .single-page-content .price {
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55ba59;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+#singlePage .main-mid .single-page-content .price .green {
+  color: #BAFD9C;
+}
+#singlePage .main-mid .single-page-content .price .controlli {
+  display: flex;
+  align-items: center;
+}
+#singlePage .main-mid .single-page-content .price .controlli span {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-right: 1px solid #000;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+#singlePage .main-mid .single-page-content .price .controlli select {
+  height: 16px;
+  margin-left: 15px;
+  background-color: #55ba59;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+#singlePage .main-mid .single-page-content .description p {
+  line-height: 30px;
+}
+#singlePage .main-mid .advertise p {
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: bold;
+  color: #003f5e;
+}
+#singlePage .main-bot .container {
+  display: flex;
+}
+#singlePage .main-bot .container .container-left {
+  display: flex;
+  justify-content: space-between;
+}
+#singlePage .main-bot h4 {
+  border-bottom: 1px solid #e3e3e3;
+}
+#singlePage .main-bot div {
+  border-bottom: 1px solid #e3e3e3;
 }
 
 footer {
   background-color: #303030;
   background-image: url(../../../images/footer-bg.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
