@@ -1,18 +1,21 @@
 footer{
-  height: 500px;
   background-color: #303030;
   background-image: url(../../../images/footer-bg.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
   .container{
     width: 80%;
     margin: 0 auto;
+    background-image: url(../../../images/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
     
     p{
       width: 55%;
       color: #959595;
       font-size: 13px;
+      padding-bottom: 15px;
       .blue{
         a{
           color: #0282f9;
@@ -26,9 +29,6 @@ footer{
     .liste{
       @include flex;
       padding: 30px 0;
-      background-image: url(../../../images/dc-logo-bg.png);
-      background-repeat: no-repeat;
-      background-position: right center;
       ul{
         padding-right: 30px;
         li{
@@ -42,6 +42,49 @@ footer{
           margin: 10px 0;
           a{
             color: #FFF;
+          }
+        }
+      }
+    }
+  }
+  .footer-bot{
+    background-color: #303030;
+    a{
+      text-decoration: none;
+      color: #959595;
+    }
+    .container-bot{
+      width: 80%;
+      margin: 0 auto;
+      @include flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 0;
+      .btn{
+        font-size: 22px;
+        padding: 10px 30px;
+        border: 1px solid #0282f9;
+        text-transform: uppercase;
+        color: #FFF;
+      }
+      .social{
+        @include flex;
+        p{
+          font-size: 22px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #0282f9;
+          margin-right: 20px;
+        }
+        ul{
+          li{
+            display: inline-block;
+            margin: 0 10px;
+            a{
+              i{
+                font-size: 25px;
+              }
+            }
           }
         }
       }

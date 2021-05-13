@@ -45,4 +45,20 @@
         <span class="blue"><a href="">Cookie Settings</a></span>
     </p>
   </div>
+  <div class="footer-bot">
+    <div class="container-bot">
+      <a href="" class="btn">sign-up now</a>
+
+      <div class="social">
+        <p>Follow us</p>
+        <ul>
+          <li><a href=""><i class="fab fa-facebook"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+          <li><a href=""><i class="fab fa-periscope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
